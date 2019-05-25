@@ -11,7 +11,7 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     HISTORY = history_file.read()
 
-REQUIREMENTS = ["Click>=6.0", "opencv-python", "scikit-image",
+REQUIREMENTS = ["Click>=6.0", "opencv-contrib-python", "scikit-image",
                 "imutils", "scipy"]
 
 SETUP_REQUIREMENTS = ["pytest-runner"]
