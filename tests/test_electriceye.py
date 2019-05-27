@@ -37,15 +37,18 @@ def test_image_diff_01():
     # Verify
     assert result['mssim'] == 1.0
 
-def test_image_diff_02():
+def test_image_diff_02(request):
     """ test_image_diff_01
     input: Same img
     output: no 1.0
     """
     # Prepare
-    img_dir = 'tests/imgs/'
-    file_a = os.path.join(img_dir + 'test_1_a.JPG')
-    file_b = os.path.join(img_dir + 'test_1_b.JPG')
+    test_dir = os.path.dirname(__file__)
+    img_dir = 'imgs'
+    print(test_dir)
+    file_a = os.path.join(test_dir, img_dir, 'test_1_a.jpg')
+    print(file_a)
+    file_b = os.path.join(test_dir, img_dir, 'test_1_b.jpg')
 
     # Execute
     result = electriceye.image_diff(file_a, file_b)
