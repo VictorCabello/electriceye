@@ -28,8 +28,8 @@ def test_image_diff_01():
     """
     # Prepare
     img_dir = 'tests/imgs/'
-    file_a = os.path.join(img_dir + 'test_1_a.JPG')
-    file_b = os.path.join(img_dir + 'test_1_a.JPG')
+    file_a = os.path.join(img_dir + 'test_1_a.jpg')
+    file_b = os.path.join(img_dir + 'test_1_a.jpg')
 
     # Execute
     result = electriceye.image_diff(file_a, file_b)
