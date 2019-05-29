@@ -11,7 +11,7 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     HISTORY = history_file.read()
 
-REQUIREMENTS = ["Click>=6.0", "opencv-python", "scikit-image",
+REQUIREMENTS = ["Click>=6.0", "opencv-contrib-python", "scikit-image",
                 "imutils", "scipy"]
 
 SETUP_REQUIREMENTS = ["pytest-runner"]
@@ -29,7 +29,6 @@ setup(
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
