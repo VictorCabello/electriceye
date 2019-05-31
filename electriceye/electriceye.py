@@ -40,27 +40,20 @@ def image_diff(path_a, path_b):
     diff = (full_ssim * 255).astype("uint8")
     gen_diff_img(img_a, img_b, diff)
 
-
     return {
         "mssim": mssim,
         "diff_img": img_b
     }
 
 
-def to_gray(img):
-    """
-    Retruns the image taken as agrument but in a gray scale
-    """
-    return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-
-def show(img):
-    cv2.imshow('image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-
 def gen_diff_img(img_a, img_b, full_ssim):
+    """
+    Mark differneces of both images on the img_b
+
+    Prameters
+    ---------
+    img_a, img_b : ndarray Image.
+    """
     thresh = cv2.threshold(full_ssim,
                            0,
                            255,

@@ -16,7 +16,7 @@ REQUIREMENTS = ["Click>=6.0", "opencv-contrib-python", "scikit-image",
 
 SETUP_REQUIREMENTS = ["pytest-runner"]
 
-TEST_REQUIREMENTS = ["pytest"]
+TEST_REQUIREMENTS = ["pytest", "pytest-cov"]
 
 setup(
     author="Victor Cabello",
