@@ -13,6 +13,9 @@ electriceye
         :target: https://electriceye.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://codecov.io/gh/VictorCabello/electriceye/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/VictorCabello/electriceye
+
 
 
 
