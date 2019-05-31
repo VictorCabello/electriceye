@@ -13,5 +13,5 @@ deploy:
     secure: jLzZS5Q8PbYGx+fnkj8sNZuB76RvaDiHz9n5+VsNHtFan5EWBVJVCms/hp93CoCaeVqBkvvrTUFd3TNJju5WJgP/HFPMO6FtCSmUtMZpwphIl2Pxl8b8wp/gYTHqINMHSiDi53ZixM4+9l9EGrHETpeqwiS/1Glbc/czioL1MhEFQgTq/allevwqU1wG/q3zN4VCIaPMC4jlz5y9n9BGKc1POC9Pd4RvgaKsfZ3wmGwxMiShYjiRD4LIyN3Y0uDvXa+TV/rdMt1+HsxfmRnhaRVf8ZkMXZurJbs7hcn5p3sn2bqE+t1gEM7a7XqZYDe8gsPxswT3k43YMImbJ/5UPsVxZWnw+lgWAHiwsmyk/4YO/hBd8N58gyRgzfbDthcWO45WGa4ru+CCSgBMYUOzPv2QgepuM1tq+ptEWHMjV+NK7AM7VZ0Y8lEuZb9skyfiAgcEBFVG8MFx9uBfQ5gRJ6McTVZfATagooS6Q6SwS5i7SI+qO99jRefa/r6JlMtRuui9RCZ74oJaPZNFYApW0lW1n/ZquQFNTgNjkiUIu0ZYSY66s8oWlwWjcLocWLz7dPWfokSTEVbS/or3Rv4uh+jS5sBmTaVYJyD1JCq8K7Da5Semy+RzfL15eW5RG+hMKHxd8ryr4OZOBfdo8JXiPcLpQX8mddYN/Vauon+5S88=
   on:
     tags: true
-    repo: victorcabello/electriceye
+    repo: VictorCabello/electriceye
     python: 3.6
